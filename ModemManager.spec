@@ -8,12 +8,12 @@
 %global forgeurl https://gitlab.freedesktop.org/mobile-broadband/ModemManager
 
 Name: ModemManager
-Version: 1.25.1
+Version: 1.25.1-dev
 Release: %autorelease
 Summary: Mobile broadband modem management service
 License: GPL-2.0-or-later
 URL: %{forgeurl}
-Source: %{forgeurl}/-/archive/%{version}-dev/%{name}-%{version}-dev.tar.bz2
+Source: %{forgeurl}/-/archive/%{version}/%{name}-%{version}.tar.bz2
 
 # For mbim-proxy and qmi-proxy
 Requires: libmbim-utils
